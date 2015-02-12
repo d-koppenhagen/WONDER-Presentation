@@ -119,7 +119,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[WONDER GUI]{WONDER GUI} % The short title appears at the bottom 
+\title[WONDER GUI]{WONDER GUI} % The short title appears at the bottom
 %of every slide, the full title is only on the title page
 
 \author{Danny Koppenhagen} % Your name
@@ -213,6 +213,20 @@ Hochschule für Telekommunikation Leipzig \\ % Your institution for the title
 		Ziel: GUI Elemente können mit Modulen ja nach Status ein- und
 		ausgeblendet werden.
 		\end{block}
+
+		\pause
+		\visible<2>
+		{\begin{exampleblock}{vorher (main.js)}
+		\lstinputlisting[language=html,
+		linewidth=\textwidth,frame=none]{src/oldUI.js}
+		\end{exampleblock}
+		}
+		\pause
+		\begin{exampleblock}{nachher (main.js)}
+		\lstinputlisting[language=html,
+		linewidth=\textwidth,frame=none]{src/newUI.js}
+		\end{exampleblock}
+		
 		\pause
 		\begin{itemize}[<+->]
 			\item Module
@@ -241,6 +255,13 @@ Hochschule für Telekommunikation Leipzig \\ % Your institution for the title
 		linewidth=\textwidth,frame=none]{src/contactJSON.js}
 		\end{exampleblock}
 	\end{frame}
+
+\section{Vorführung}
+		\begin{frame}
+			\frametitle{Vorführung}
+			\href{run:/Users/dannyk/Desktop/test.txt}
+				{\beamerbutton{Öffnen}}
+		\end{frame}
 
 \section{Ausblick}
 	\begin{frame}
