@@ -1,0 +1,19 @@
+\frametitle{References}
+\tiny{
+\begin{thebibliography}{99}
+\bibitem{p1} jquery.com/ (Letzter Aufruf: 09.02.2014)
+\newblock Javascript Bibliothek
+\newblock \url{http://jquery.com/}
+\bibitem{p2} getbootstrap.com (Letzter Aufruf: 09.02.2014)
+\newblock HTML/CSS/Javascript Framework
+\newblock \url{http://getbootstrap.com/}
+\bibitem{p3} summernote.org (Letzter Aufruf: 09.02.2014)
+\newblock WYSIWYG Editor
+\newblock \url{http://summernote.org/}
+\bibitem{p4} html5-ninja.com (Letzter Aufruf: 09.02.2014)
+\newblock Bootstrap video player
+\newblock
+\url{http://html5-ninja.com/#/item/Bootstrap-video-player-jQuery-plugin/5}
+
+\end{thebibliography}
+}

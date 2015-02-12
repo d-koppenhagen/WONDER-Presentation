@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Anforderungen}{3}{0}{1}
+\beamer@sectionintoc {2}{Umsetzung}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Verwendete Frameworks und Libraries}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Modulares Konzept}{13}{0}{2}
+\beamer@subsectionintoc {2}{3}{Kontaktmanagement}{16}{0}{2}
+\beamer@sectionintoc {3}{Ausblick}{18}{0}{3}
