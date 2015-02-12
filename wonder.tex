@@ -151,33 +151,38 @@ Hochschule für Telekommunikation Leipzig \\ % Your institution for the title
 \section{Anforderungen}
 	\begin{frame}
 		\frametitle{Anforderungen}
-		\begin{block}{Aufgabe}
-		Erstellung eines Frontends basierend auf dem WONDER API als eine
-		Alternative
-		für das bereits existierende Frontend.
-		\end{block}
+		\only<1>{
+			\begin{block}{Aufgabe}
+			Erstellung eines Frontends basierend auf dem WONDER API als eine
+			Alternative
+			für das bereits existierende Frontend.
+			\end{block}
+		}
 		\pause
-		GUI Elemente und Funktionalitäten für:
-		\begin{itemize}[<+->]
-			\item Login/Logout  an den Domains (NodeJS/IMS)
-			\color[rgb]{0,0.8,0}\checkmark
-			\item Call Funktionen \color[rgb]{0,0.8,0}\checkmark
-			\begin{itemize}[<2->]
-				\item Call zu einer beliebigen URL
-				\item Annahme eines eingehenden Calls
+		\only<-2>{
+			GUI Elemente und Funktionalitäten für:
+			\begin{itemize}[<+->]
+				\item Login/Logout  an den Domains (NodeJS/IMS)
+				\color[rgb]{0,0.8,0}\checkmark
+				\item Call Funktionen \color[rgb]{0,0.8,0}\checkmark
+				\begin{itemize}[<2->]
+					\item Call zu einer beliebigen URL
+					\item Annahme eines eingehenden Calls
+				\end{itemize}
+				\item Chat \color[rgb]{0,0.8,0}\checkmark
+				\item File-Transfer {\color[rgb]{0.8,0,0} X}
+				\item Kontaktliste
+				\begin{itemize}[<6->]
+					\item Add {\color[rgb]{0,0.8,0}\checkmark},
+					Modify {\color[rgb]{0.8,0,0} X}, Remove 
+					{\color[rgb]{0.8,0,0} X}
+					\item Direktes Wählen aus der Kontaktliste
+					{\color[rgb]{0,0.8,0}\checkmark}
+					\item Presence der Kontakte (online/offline)
+					{\color[rgb]{0.8,0,0} X}
+				\end{itemize}
 			\end{itemize}
-			\item Chat \color[rgb]{0,0.8,0}\checkmark
-			\item File-Transfer {\color[rgb]{0.8,0,0} X}
-			\item Kontaktliste
-			\begin{itemize}[<6->]
-				\item Add {\color[rgb]{0,0.8,0}\checkmark},
-				Modify {\color[rgb]{0.8,0,0} X}, Remove {\color[rgb]{0.8,0,0} X}
-				\item Direktes Wählen aus der Kontaktliste
-				{\color[rgb]{0,0.8,0}\checkmark}
-				\item Presence der Kontakte (online/offline)
-				{\color[rgb]{0.8,0,0} X}
-			\end{itemize}
-		\end{itemize}
+		}
 	\end{frame}
 
 \section{Umsetzung}
